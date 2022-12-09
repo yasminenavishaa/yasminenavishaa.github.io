@@ -1,0 +1,54 @@
+<html> 
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">  
+    </head> 
+    <body> 
+        <div id="content"> 
+            <table> 
+                <form action="prosesDaftar.php" method="get"> 
+                    <tr> 
+                        <td> ID </td> 
+                        <td>: <input type="text" name="id"></td> 
+                    </tr> 
+                    <tr> 
+                        <td> Nama </td> 
+                        <td>: <input type="text" name="nama"></td> 
+                    </tr> 
+                    <tr> 
+                        <td> Alamat </td> 
+                        <td>: <textarea name="alamat" cols="20" rows="5"></textarea></td> 
+                    </tr> 
+                    <tr> 
+                        <td> No Telp </td> 
+                        <td>: <input type="number" name="notelp"></td> 
+                    </tr> 
+                    <tr> 
+                        <td> Jenis Kelamin </td> 
+                        <td> 
+                            <p>: 
+                                <input type='radio' name='jk' value='L' />L
+                                <input type='radio' name='jk' value='P' />P
+                            </p> 
+                        </td> 
+                    </tr> 
+                    <tr> 
+                        <td> Agama </td> 
+                        <td>: <select type='text' name='agama' id="agama" autocomplete="off"> 
+                                <option value="Islam"> Islam </option> 
+                                <option value="Protestan"> Protestan </option> 
+                                <option value="Katolik"> Katolik </option> 
+                                <option value="Hindu"> Hindu </option> 
+                                <option value="Buddha"> Buddha </option> 
+                                <option value="Konghucu"> Konghucu </option> 
+                            </select> 
+                        </td> 
+                    </tr> 
+                    <tr> 
+                        <td><br><input type="submit" name="kirim" value="Daftar" id="submit"></td> 
+                        <td></td>
+                    </tr> 
+                </form> 
+            </table> 
+        </div> 
+    </body> 
+</html>
